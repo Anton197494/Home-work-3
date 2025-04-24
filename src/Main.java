@@ -14,6 +14,19 @@ public class Main {
         double l = 4.57d;
         System.out.println("Значение переменной с типом l равно "+ l);
 
+        float k = 27.12f;
+        long h = 987678965549L;
+        double z = 2.786d;
+        short n = 569;
+        short g = -159;
+        int s = 27897;
+        byte f = 67;
+
+
+
+
+
+
     }
 
 
