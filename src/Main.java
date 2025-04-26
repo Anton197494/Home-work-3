@@ -70,6 +70,36 @@ public class Main {
         System.out.println ("Если спортсмен в день будет худеть на " + weightLoss1 + " грамм, то чтобы достигнуть результатов похудения ему понадобится " + numberOfDays1 + " дней");
         System.out.println ("Если спортсмен в день будет худеть на " + weightLoss2 + " грамм, то чтобы достигнуть результатов похудения ему понадобится " + numberOfDays2 + " дней");
 
+        int mashaSalary1 = 67760;
+        int denisSalary1 = 83690;
+        int kristinaSalary1 = 76230;
+        double mashaSalary2 = mashaSalary1 * 1.1;
+        double denisSalary2 = denisSalary1 * 1.1;
+        double kristinaSalary2 = kristinaSalary1 * 1.1;
+        int mashaSalaryInYear1 = mashaSalary1 * 12;
+        int denisSalaryInYear1 = denisSalary1 *12;
+        int kristinaSalaryInYear1 = kristinaSalary1 *12;
+        double mashaSalaryInYear2 = mashaSalary2 * 12;
+        double denisSalaryInYear2 = denisSalary2 * 12;
+        double kristinaSalaryInYear2 = kristinaSalary2 * 12;
+        double differenceMashaSalaryInYear = mashaSalaryInYear2 - mashaSalaryInYear1;
+        double differenceDenisSalaryInYear = denisSalaryInYear2 - denisSalaryInYear1;
+        double differenceKristinaSalaryInYear = kristinaSalaryInYear2 - kristinaSalaryInYear1;
+        System.out.println ("Маша теперь получает "+ mashaSalary2 + " рблей. Годовой доход вырос на " + differenceMashaSalaryInYear + " рублей.");
+        System.out.println ("Денис теперь получает "+ denisSalary2 + " рблей. Годовой доход вырос на " + differenceDenisSalaryInYear + " рублей.");
+        System.out.println ("Кристина теперь получает "+ kristinaSalary2 + " рблей. Годовой доход вырос на " + differenceKristinaSalaryInYear + " рублей.");
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
