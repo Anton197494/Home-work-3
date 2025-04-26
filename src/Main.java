@@ -44,6 +44,16 @@ public class Main {
         int performanceOneMonth = performanceOneMinutes * oneMonthMinutes;
         System.out.println("За месяц машина произвела "+performanceOneMonth+ " бутылок");
 
+        byte totalCansOfPain = 120;
+        byte whiteCansOfPainOfOneClass = 2;
+        byte brownCansOfPainOfOneClass = 4;
+        int CansOfPainOfOneClass = whiteCansOfPainOfOneClass + brownCansOfPainOfOneClass;
+        int totalClassInSchool = totalCansOfPain/CansOfPainOfOneClass;
+        int whiteCansOfPainOfSchool = whiteCansOfPainOfOneClass * totalClassInSchool;
+        int brownCansOfPainOfSchool = brownCansOfPainOfOneClass * totalClassInSchool;
+        System.out.println("В школе где " + totalClassInSchool + " классов, нужно " + whiteCansOfPainOfSchool + " банок белой краски и " + brownCansOfPainOfSchool + " банок коричневой краски");
+
+
 
 
 
