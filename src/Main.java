@@ -53,6 +53,18 @@ public class Main {
         int brownCansOfPainOfSchool = brownCansOfPainOfOneClass * totalClassInSchool;
         System.out.println("В школе где " + totalClassInSchool + " классов, нужно " + whiteCansOfPainOfSchool + " банок белой краски и " + brownCansOfPainOfSchool + " банок коричневой краски");
 
+        short bananaWeightInGram = 5 * 80;
+        short milkWeightInGram = 105 * 2;
+        short iceCreamWeightInGram = 100 * 2;
+        short eggsWeightInGram = 70 * 4;
+        int weightOfSportBreakfastInGram = bananaWeightInGram + milkWeightInGram + iceCreamWeightInGram + eggsWeightInGram;
+        float weightOfSportBreakfastInKilogram = (float) weightOfSportBreakfastInGram/1000;
+        System.out.println("Вес спортзавтрака составляет " + weightOfSportBreakfastInGram + " грамм");
+        System.out.println("Вес спортзавтрака составляет " + weightOfSportBreakfastInKilogram + " килограмм");
+
+
+
+
 
 
 
