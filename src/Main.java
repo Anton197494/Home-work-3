@@ -62,6 +62,18 @@ public class Main {
         System.out.println("Вес спортзавтрака составляет " + weightOfSportBreakfastInGram + " грамм");
         System.out.println("Вес спортзавтрака составляет " + weightOfSportBreakfastInKilogram + " килограмм");
 
+        short massInGram = 7 * 1000;
+        short weightLoss1 = 250;
+        short weightLoss2 = 500;
+        int numberOfDays1 = massInGram / weightLoss1;
+        int numberOfDays2 = massInGram / weightLoss2;
+        System.out.println ("Если спортсмен в день будет худеть на " + weightLoss1 + " грамм, то чтобы достигнуть результатов похудения ему понадобится " + numberOfDays1 + " дней");
+        System.out.println ("Если спортсмен в день будет худеть на " + weightLoss2 + " грамм, то чтобы достигнуть результатов похудения ему понадобится " + numberOfDays2 + " дней");
+
+
+
+
+
 
 
 
