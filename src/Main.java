@@ -30,6 +30,20 @@ public class Main {
         int paperPerStudent = paper/totalStudent;
         System.out.println("На каждого ученика расчитано "+paperPerStudent+" листов бумаги");
 
+        byte performanceTwoMinutes = 16;
+        int performanceOneMinutes = performanceTwoMinutes/2;
+        int performanceTwentyMinutes = performanceOneMinutes * 20;
+        System.out.println("За 20 минут машина произвела "+performanceTwentyMinutes+ " бутылок");
+        int oneDayMinutes = 1440;
+        int performanceDay = performanceOneMinutes * oneDayMinutes;
+        System.out.println("За сутки машина произвела "+performanceDay+ " бутылок");
+        int threeDayMinutes = 3*oneDayMinutes;
+        int performanceThreeDay = threeDayMinutes * performanceOneMinutes;
+        System.out.println("За три дня машина произвела "+performanceThreeDay+ " бутылок");
+        int oneMonthMinutes = oneDayMinutes * 30;
+        int performanceOneMonth = performanceOneMinutes * oneMonthMinutes;
+        System.out.println("За месяц машина произвела "+performanceOneMonth+ " бутылок");
+
 
 
 
